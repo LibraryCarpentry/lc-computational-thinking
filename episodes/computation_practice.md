@@ -36,9 +36,15 @@ Computers are precise, and computing instructions must be clear and unambiguous,
 
 #### Computational thinking in our daily lives
 
-Subconsciously, we practise computational thinking every day of our lives. As Jeannette Wing stated: 
+Subconsciously, we practise computational thinking every day of our lives. 
 
-*"Computational thinking describes the mental activity in formulating a problem to admit a computational solution. **The solution can be carried out by a human or machine**."*
+::::::::::::::::::::::::::::::::::::::::::: testimonial
+
+“Computational thinking describes the mental activity in formulating a problem to admit a computational solution. The solution can be carried out by a human or machine.”
+
+— Jeannette Wing
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Every time we need to plan to do something, we use some of the steps of computational thinking such as problem breakdown, pattern recognition and developing algorithms. 
 
