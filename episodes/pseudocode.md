@@ -140,7 +140,7 @@ One way to do that is to check we have coded the workflow correctly *before* we 
 
 Write some pseudocode for that step of the process.
 
-:::
+::::::::::::::
 
 ::: challenge
 
@@ -152,7 +152,26 @@ In order to analyse the data over time, you need to append the weekly file diges
 
 Write some pseudocode of how you might automate this process.
 
-:::
+::: solution
+
+In order to analyse the data over time, you need to append the weekly file digest to the existing, now very large, main data file. Before adding anything new, and in order to safeguard the integrity of the data, you need to create a backup of that main data file and send a copy of that backup file to your cloud storage account for safekeeping. Once the new data has been appended, you need to rename the new main data file with today's date as part of the file name, and run software against the file to ensure the integrity of the data, e.g., to check that no data is missing (which might indicate a malfunctioning device).
+
+*Steps in the data combination process*
+
+1. Create a new copy of the main data file with today's date as part of the file name.
+2. Move the previous version of the main data file to cloud storage.
+3. Save all the new data files individually to local storage with the device ID of each as part of the file names.
+4. Create a new weekly data file digest into which the daily digests from the different devices will be imported.
+5. Import each daily digest to that data file with an `append` command, ensuring that the device ID relating to each file's data is written into a separate column.
+6. Append the weekly digest to the newly renamed main data file.
+7. Verify that no data is missing. In [OpenRefine](https://openrefine.org/), using `Facet by Blank` on the relevant data fields could be one way to verify that no data is missing.
+
+*Using a shell script to automate the work*
+
+Again, a shell script could be used to automate this work. Given that these tasks are run weekly, it would make sense to turn this into an automated task rather than a manual one as that will not only be faster, but will reduce the opportunity for error.
+
+::::::::::
+::::::::::
 
 -------------------
 
