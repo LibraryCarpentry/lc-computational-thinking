@@ -303,18 +303,6 @@
 </div>
 <!--/div.accordion-flush-->
 
-<div class="accordion accordion-flush" id="accordionFlush7">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading7">
-        <a href="solutions.html">6. Potential solutions to practice exercises</a>
-    </div>
-<!--/div.accordion-header-->
-
-  </div>
-<!--/div.accordion-item-->
-</div>
-<!--/div.accordion-flush-->
-
                 </div>
               </div>
             </div>
@@ -593,6 +581,40 @@ the ACM</em>, March 2006, Vol. 49 No. 3, Pages 33-35. DOI: <a href="https://dx.
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How can we use computational thinking to solve complex manual
+tasks?</li>
+<li>What is “Library Sort” and how does it optimize shelving?</li>
+<li>Can the same computational strategies apply to both math and
+physical organization?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Apply decomposition, pattern recognition, and algorithms to both
+mathematical and real-world problems.</li>
+<li>Understand how abstraction allows us to create reusable formulas and
+processes.</li>
+<li>Learn the “Library Sort” algorithm as an application of
+computational thinking.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
 <p>In this exercise, we will see how computational thinking can be used
 to add up all the numbers between 1 and 200 in our heads,
 i.e. <code>1 + 2 + 3 + 4</code> and so on. We should be able to do this
@@ -622,7 +644,7 @@ and last numbers.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The answer is <code>201</code>.</p>
 </div>
@@ -648,7 +670,7 @@ i.e. <code>199 + 2</code>.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The answer is <code>201</code>.</p>
 </div>
@@ -674,7 +696,7 @@ i.e. <code>198 + 3</code>.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>The answer is <code>201</code>.</p>
 </div>
@@ -725,31 +747,169 @@ algebraic formula:</p>
 <p>That’s it! Using those four key steps, we have learned the basics of
 computational thinking.</p>
 <hr>
-<div id="practice" class="callout discussion">
+<div id="option-1-practice-with-numbers" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Discussion</span>
-<div id="practice" class="callout-inner">
-<h3 class="callout-title">Practice</h3>
+<span class="callout-header">Challenge</span>
+<div id="option-1-practice-with-numbers" class="callout-inner">
+<h3 class="callout-title">Option 1: Practice with Numbers</h3>
 <div class="callout-content">
 <p>Use the algorithm above to add up all the numbers between 1 and 24, 1
 and 50, and 1 and 1,000.</p>
 </div>
 </div>
 </div>
-<div id="discussion" class="callout discussion">
+<div id="accordionSolution4" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
+  <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
+</button>
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div class="accordion-body">
+<p><strong>1 to 24:</strong> - x = 24 - (24 / 2) * (24 + 1) - 12 * 25 =
+<strong>300</strong></p>
+<p><strong>1 to 50:</strong> - x = 50 - (50 / 2) * (50 + 1) - 25 * 51 =
+<strong>1,275</strong></p>
+<p><strong>1 to 1,000:</strong> - x = 1000 - (1000 / 2) * (1000 + 1) -
+500 * 1001 = <strong>500,500</strong></p>
+</div>
+</div>
+</div>
+</div>
+<div id="discussion-odd-numbers" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <span class="callout-header">Discussion</span>
-<div id="discussion" class="callout-inner">
-<h3 class="callout-title">Discussion</h3>
+<div id="discussion-odd-numbers" class="callout-inner">
+<h3 class="callout-title">Discussion: Odd Numbers</h3>
 <div class="callout-content">
 <p>The numbers above are all even numbers. What would be the process for
 adding up numbers if the final number is an odd one, e.g., 17? Can you
 use the same formula? If not, what adaptations would you need to make to
 the formula?</p>
+<div id="accordionSolution5" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
+  <h4 class="accordion-header" id="headingSolution5"> Show me the solution </h4>
+</button>
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div class="accordion-body">
+<p>Yes, the formula <code>(x/2) * (x + 1)</code> still works
+mathematically.</p>
+<p><strong>For 17:</strong> - x = 17 - (17 / 2) * (17 + 1) - 8.5 * 18 =
+<strong>153</strong></p>
+<p><strong>Conceptually:</strong> If you prefer the “pairing” method
+(Decomposition): - You have 8 pairs (1+17, 2+16, etc.) that sum to 18. -
+The middle number, 9, is left over. - (8 * 18) + 9 = 144 + 9 =
+<strong>153</strong>.</p>
+<p>Both methods yield the same result. The abstraction formula handles
+the “half pair” (0.5) correctly.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="option-2-shelving-books-efficiently" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="option-2-shelving-books-efficiently" class="callout-inner">
+<h3 class="callout-title">Option 2: Shelving Books Efficiently</h3>
+<div class="callout-content">
+<p>Imagine you are working in a library. You have a cart of new books
+that need to be shelved. The shelves are currently quite full. Every
+time you find the correct spot for a new book (e.g., by call number),
+you have to shift all the subsequent books on that shelf to the right to
+make space. This physical shifting is heavy, slow, and tedious.</p>
+<p>How can you use <strong>Computational Thinking</strong> to solve this
+problem for future shelving? Apply the four steps:</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Decomposition:</strong> What are the individual actions
+involved in shelving?</li>
+<li>
+<strong>Pattern Recognition:</strong> What is the specific
+bottleneck that repeats?</li>
+<li>
+<strong>Abstraction:</strong> Can we conceptually change how the
+shelf “works”?</li>
+<li>
+<strong>Algorithm:</strong> What new process can we adopt to
+minimize the work?</li>
+</ol>
+<p><em>Hint: Think about “Gapped Insertion Sort” or “Library
+Sort”.</em></p>
+</div>
+</div>
+</div>
+<div id="accordionSolution6" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
+  <h4 class="accordion-header" id="headingSolution6"> Show me the solution </h4>
+</button>
+<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
+<div class="accordion-body">
+<ol style="list-style-type: decimal">
+<li>
+<strong>Decomposition:</strong> Shelving involves three main
+actions: (a) Finding the correct spot, (b) Making space (shifting
+existing books), and (c) Placing the new book.</li>
+<li>
+<strong>Pattern Recognition:</strong> The “Making space” step is the
+bottleneck. It requires physical effort and time, and it happens
+<em>every single time</em> we insert a book into a contiguous row. The
+more books on the shelf, the more work it takes to shift them.</li>
+<li>
+<strong>Abstraction:</strong> Instead of viewing the shelf as a
+solid block of books that must be packed tightly, view it as a
+collection of items with <em>buffers</em> or <em>gaps</em> distributed
+between them. The “concept” of the shelf now includes empty space as a
+feature, not a bug.</li>
+<li>
+<strong>Algorithm (The Library Sort):</strong>
+<ul>
+<li>
+<strong>Step 1 (Setup):</strong> Spread the existing books out on
+the shelves so there are intentional gaps between them (e.g., leave 25%
+of the shelf empty).</li>
+<li>
+<strong>Step 2 (Insert):</strong> When a new book arrives, place it
+into the open gap at its correct location. <strong>No shifting is
+required!</strong>
+</li>
+<li>
+<strong>Step 3 (Maintenance):</strong> If a specific gap fills up
+completely, redistribute just the books in that small section to create
+new gaps.</li>
+</ul>
+</li>
+</ol>
+<p>By using this algorithm, you trade a small amount of space (the gaps)
+for a massive gain in speed and reduced effort. In computer science,
+this is known as a <strong>Gapped Insertion Sort</strong>.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<span class="callout-header">Key Points</span>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Computational thinking helps us calculate sums efficiently without
+adding every number sequentially.</li>
+<li>Decomposition reveals patterns (pairing numbers).</li>
+<li>Algorithms provide a reproducible process.</li>
+<li>Abstraction creates a formula reusable for any set of numbers.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -1162,7 +1322,7 @@ are going to automate the workflow to create the backup copies.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Potential solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><em>Steps in the copying process</em></p>
 <figure><img src="../fig/pseudo-loop.png" style="width:70.0%" alt="Steps in the loop" class="figure mx-auto d-block"><div class="figcaption">Steps in the copying loop</div>
@@ -1215,7 +1375,7 @@ to be created and the different files moved into them by file type.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Potential solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p><em>Steps in the moving process</em></p>
 <ol style="list-style-type: decimal">
@@ -1241,11 +1401,11 @@ they contain can be re-used or adapted for similar tasks.</p>
 </div>
 </div>
 </div>
-<div id="practice-2b.-tidying-up-more-carefully" class="callout discussion">
+<div id="practice-2b.-tidying-up-more-carefully" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Discussion</span>
+<span class="callout-header">Challenge</span>
 <div id="practice-2b.-tidying-up-more-carefully" class="callout-inner">
 <h3 class="callout-title">Practice 2b. Tidying up more carefully</h3>
 <div class="callout-content">
@@ -1263,6 +1423,25 @@ deleting or moving them. That way we can check we are working on the
 correct files and only execute the final move workflow once we are sure
 we have everything right.</p>
 <p>Write some pseudocode for that step of the process.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div class="accordion-body">
+<p>To prevent accidental deletion of files, we could introduce a step to
+check whether or not to delete a file, e.g., by using the remove command
+<code>rm</code> in the Unix shell with an <code>-i</code> flag. The
+<code>-i</code> flag forces the system to ask for confirmation on
+whether or not to delete a file. One can answer either
+<strong>Y</strong> or <strong>N</strong> to the example below.</p>
+<p><img src="../fig/code-in-shell.png" alt="Confirming a remove command" class="figure">{alt=“RM command in the shell”,
+width=“75%”}</p>
+</div>
 </div>
 </div>
 </div>
@@ -1295,12 +1474,12 @@ device).</p>
 </div>
 </div>
 </div>
-<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div id="accordionSolution4" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
-  <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
+  <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>In order to analyse the data over time, you need to append the weekly
 file digest to the existing, now very large, main data file. Before
@@ -1339,9 +1518,6 @@ but will reduce the opportunity for error.</p>
 </div>
 </div>
 </div>
-<hr>
-<p>Some potential solutions to these practice coding exercises can be
-found on the <a href="../solutions.html">Solutions</a> page.</p>
 <hr>
 </div>
 <div class="section level4">
@@ -1389,217 +1565,6 @@ conditions are met.</li>
 <li>Variables in loops can change with each iteration, demonstrating the
 concept of abstraction.</li>
 </ul>
-</div>
-</div>
-</div>
-</div></section><section id="aio-solutions"><p>Content from <a href="solutions.html">Potential solutions to practice exercises</a></p>
-<hr>
-<p>Last updated on 2026-01-22 |
-
-        <a href="https://github.com/LibraryCarpentry/lc-computational-thinking/edit/main/episodes/solutions.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
-        </div>
-<p>Different people might approach these practice tasks in very
-different ways so these solutions are suggestions only. They are offered
-here to provide some guidance for people who might otherwise struggle
-with laying out steps.</p>
-<div id="practice-1.-creating-backup-copies-of-files" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="practice-1.-creating-backup-copies-of-files" class="callout-inner">
-<h3 class="callout-title">Practice 1. Creating backup copies of
-files</h3>
-<div class="callout-content">
-<p>In a folder, we have 250 image files for which we want to create
-backup copies before we process the images for archiving. Manually
-creating 250 copies of files seems like a very boring thing to do, so we
-are going to automate the workflow to create the backup copies.</p>
-<p>This is a perfect task for a loop, as the task is simple and
-repetitive.</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Potential solution </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
-<div class="accordion-body">
-<p><em>Steps in the copying process</em></p>
-<figure><img src="../fig/pseudo-loop.png" style="width:70.0%" alt="Steps in the loop" class="figure mx-auto d-block"><div class="figcaption">Steps in the copying loop</div>
-</figure><div class="section level3">
-<h3 id="example-code-in-the-unix-shell">Example code in the Unix shell<a class="anchor" aria-label="anchor" href="#example-code-in-the-unix-shell"></a>
-</h3>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="cf">for</span> filename <span class="kw">in</span> <span class="st">"*.jpg"</span> <span class="st">"*.tif"</span> <span class="st">"*.png"</span></span>
-<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>  <span class="cf">do</span></span>
-<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>  <span class="fu">cp</span> <span class="va">$filename</span> backup-<span class="va">$filename</span></span>
-<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>  <span class="bu">echo</span> <span class="va">$filename</span> backup-<span class="va">$filename</span></span>
-<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a><span class="cf">done</span></span></code></pre>
-</div>
-<figure><img src="../fig/loop-shell.png" style="width:90.0%" alt="Loop as it would be written in the Unix shell" class="figure mx-auto d-block"><div class="figcaption">Coding a loop in the Unix shell</div>
-</figure><p><em>Notes</em></p>
-<p>In the code example above, the loop will run through the folder
-creating back up copies of all the files with the file extension
-<code>.jpg</code>. As each file is copied, each original filename and
-the filename of each new file will be printed to the screen.</p>
-<p>Then the loop will restart and repeat the process for all the files
-with the file extension <code>.tif</code>, again printing the original
-filenames and the filenames of the new files to the screen.</p>
-<p>Then the loop will restart and run through the folder a third time,
-creating back up copies of all the files with the file extension
-<code>.png</code>, again printing the original filenames and the
-filenames of the new files to the screen.</p>
-<p>The loop will then stop, as there are no more variables to work
-on.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="practice-2a.-tidying-up" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="practice-2a.-tidying-up" class="callout-inner">
-<h3 class="callout-title">Practice 2a. Tidying up</h3>
-<div class="callout-content">
-<p>We have a large folder of files left over from a project that is now
-finished. The files are all sitting in the one folder which makes it
-hard to navigate. We want to archive the project and its files, but in
-the process, we want to create folders by file type, e.g.,
-<code>.pdf</code>, <code>.jpg</code>, <code>.doc</code>, so that anyone
-wanting to access those particular file types can do so easily. We also
-want to delete files that have no file extensions. New folders will need
-to be created and the different files moved into them by file type.</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Potential solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
-<div class="accordion-body">
-<p><em>Steps in the moving process</em></p>
-<ol style="list-style-type: decimal">
-<li>Identify the different file types in the folder.</li>
-<li>Create new folders to house the different file types.</li>
-<li>Create a series of loops to work through the folder, file type by
-file type, moving the files to the correct folders.</li>
-<li>Once the final loop has run, delete all remaining files left within
-the main folder.</li>
-<li>Print filenames to the screen as the loop runs to verify it is
-working as required.</li>
-</ol>
-<p><em>Using a shell script to automate the work</em></p>
-<p>The task above could be fully automated using a shell script. A shell
-script is a text file containing a sequence of commands for a UNIX-based
-operating system that allows those commands to be run in one go, rather
-than by entering each command one at a time. Scripts make task
-automation possible. The script would contain the commands to do the
-tasks listed above, such as folder creation, file movement using loops,
-file deletion and so on. The benefit of shell scripts is that the code
-they contain can be re-used or adapted for similar tasks.</p>
-</div>
-</div>
-</div>
-</div>
-<div id="practice-2b.-tidying-up-more-carefully" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<span class="callout-header">Discussion</span>
-<div id="practice-2b.-tidying-up-more-carefully" class="callout-inner">
-<h3 class="callout-title">Practice 2b. Tidying up more carefully</h3>
-<div class="callout-content">
-<p>In the process of doing the above, we actually made a few blunders.
-We accidentally deleted some files we should have kept either because
-they were missing a file extension. Because this automation is a complex
-operation that cannot be undone, we want to make sure we don’t make
-those kinds of mistakes again.</p>
-<p>One way to do that is to check we have coded the workflow correctly
-<em>before</em> we finally execute the automation, possibly by simply
-printing to screen all the relevant filenames prior to moving them -
-that way, it is possible to check we are working on the right files
-before any action is taken.</p>
-<p>To prevent accidental deletion of files, we could introduce a step to
-check whether or not to delete a file, e.g., by using the remove command
-<code>rm</code> in the Unix shell with an <code>-i</code> flag. The
-<code>-i</code> flag forces the system to ask for confirmation on
-whether or not to delete a file. One can answer either
-<strong>Y</strong> or <strong>N</strong> to the example below.</p>
-<p><img src="../fig/code-in-shell.png" alt="Confirming a remove command" class="figure">{alt=“RM command in the shell”,
-width=“75%”}</p>
-</div>
-</div>
-</div>
-<div id="practice-3.-managing-incoming-data" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="practice-3.-managing-incoming-data" class="callout-inner">
-<h3 class="callout-title">Practice 3. Managing incoming data</h3>
-<div class="callout-content">
-<p>Suppose you have a number of acoustic listening devices set up in the
-forest. Every day, you receive an email from each device with an
-attached data file recording that day’s activity. In order to analyse
-the data from the devices, all the separate daily data files need to be
-combined weekly into a single file. It is important that each device ID
-is listed within a column in the combined data file to identify all the
-different locations.</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
-  <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
-</button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
-<div class="accordion-body">
-<p>In order to analyse the data over time, you need to append the weekly
-file digest to the existing, now very large, main data file. Before
-adding anything new, and in order to safeguard the integrity of the
-data, you need to create a backup of that main data file and send a copy
-of that backup file to your cloud storage account for safekeeping. Once
-the new data has been appended, you need to rename the new main data
-file with today’s date as part of the file name, and run software
-against the file to ensure the integrity of the data, e.g., to check
-that no data is missing (which might indicate a malfunctioning
-device).</p>
-<p><em>Steps in the data combination process</em></p>
-<ol style="list-style-type: decimal">
-<li>Create a new copy of the main data file with today’s date as part of
-the file name.</li>
-<li>Move the previous version of the main data file to cloud
-storage.</li>
-<li>Save all the new data files individually to local storage with the
-device ID of each as part of the file names.</li>
-<li>Create a new weekly data file digest into which the daily digests
-from the different devices will be imported.</li>
-<li>Import each daily digest to that data file with an
-<code>append</code> command, ensuring that the device ID relating to
-each file’s data is written into a separate column.</li>
-<li>Append the weekly digest to the newly renamed main data file.</li>
-<li>Verify that no data is missing. In <a href="https://openrefine.org/" class="external-link">OpenRefine</a>, using
-<code>Facet by Blank</code> on the relevant data fields could be one way
-to verify that no data is missing.</li>
-</ol>
-<p><em>Using a shell script to automate the work</em></p>
-<p>Again, a shell script could be used to automate this work. Given that
-these tasks are run weekly, it would make sense to turn this into an
-automated task rather than a manual one as that will not only be faster,
-but will reduce the opportunity for error.</p>
 </div>
 </div>
 </div>
