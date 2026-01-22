@@ -140,12 +140,6 @@ One way to do that is to check we have coded the workflow correctly *before* we 
 
 Write some pseudocode for that step of the process.
 
-::: solution
-To prevent accidental deletion of files, we could introduce a step to check whether or not to delete a file, e.g., by using the remove command `rm` in the Unix shell with an `-i` flag. The `-i` flag forces the system to ask for confirmation on whether or not to delete a file. One can answer either **Y** or **N** to the example below.
-
-![Confirming a remove command](fig/code-in-shell.png){alt="RM command in the shell", width="75%"}
-:::
-
 ::::::::::::::
 
 ::: challenge
@@ -180,6 +174,10 @@ Again, a shell script could be used to automate this work. Given that these task
 ::::::::::
 
 -------------------
+
+Some potential solutions to these practice coding exercises can be found on the [Solutions](/solutions.html) page.
+
+---------------------------------
 
 #### Learning to program
 
