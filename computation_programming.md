@@ -24,7 +24,23 @@ exercises: 10
 
 *Decomposition* is crucial in any kind of problem breakdown, but especially so in programming. The computer must be told **precisely** what to do, and in what order, so problems must be broken down into discrete parts and each section coded appropriately.
 
-Suppose we want to find the ten words most commonly used in a text. How might we go about that?
+#### Defining Inputs and Outputs
+
+Before we can tell the computer *what* to do (the algorithm), we must clarify *what data* we are working with. Every computational problem involves a transformation:
+
+1.  **Input:** What is the starting state? What data do we have? What format is it in?
+2.  **Output:** What is the desired goal? What should the result look like?
+
+If we don't define these clearly, we cannot design effective steps to bridge the gap.
+
+Suppose we want to find the ten words most commonly used in a text.
+
+**Input:** A digital text file (e.g., a book chapter).
+**Output:** A list of the top 10 most frequent words.
+
+The *process* (or algorithm) is the series of steps that turns that specific Input into that specific Output.
+
+How might we go about that?
 
 #### Linear code
 
