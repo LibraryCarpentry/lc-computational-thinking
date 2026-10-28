@@ -71,7 +71,7 @@ Wing believes that computational thinking is just as important a skill for schoo
 
 While automation brings many benefits, such as lightning-fast data capture and analysis, it can also render decisions and analysis opaque and overly rigid. The famous phrase *'Computer says no'* from the TV show *Little Britain* is a perfect example of this kind of intransigence. Experiences of this kind will frustrate users.
 
-Algorithms have also been criticised for bias. As Karan Praharaj [says](https://towardsdatascience.com/how-are-algorithms-biased-8449406aaa83): *"Algorithms do what they’re taught. Unfortunately, some are inadvertently taught prejudices and unethical biases by societal patterns hidden in the data ... When these algorithms do the job of amplifying racial, social and gender inequality, instead of alleviating it; it becomes necessary to take stock of the ethical ramifications and potential malevolence of the technology."* 
+Algorithms have also been criticised for bias. As Karan Praharaj [says](https://medium.com/data-science/how-are-algorithms-biased-8449406aaa83): *"Algorithms do what they’re taught. Unfortunately, some are inadvertently taught prejudices and unethical biases by societal patterns hidden in the data ... When these algorithms do the job of amplifying racial, social and gender inequality, instead of alleviating it; it becomes necessary to take stock of the ethical ramifications and potential malevolence of the technology."* 
 
 Use automation, but use it wisely, and ethically, and always with lashings of human oversight. 
 
